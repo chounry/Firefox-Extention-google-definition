@@ -1,0 +1,28 @@
+
+
+
+
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body >
+        <div id="search">
+            <input id="box" type="text" name="word" size="30"/>&nbsp;&nbsp;
+            <p id="search_butt">Search</p>
+            <p id="loading" >
+                <img align="center" src="../imgs/Loading_icon.gif" width="43" alt="loading icon" />
+            </p>
+        </div>
+        <div id="here">
+            <form id="form" action="http://127.0.0.1:8000/api/test/" target="frame" method="GET">
+            </form>
+            <iframe id="frame" name="frame" src="" width="345" height="300" style="display:none"></iframe>
+        </div>
+        <hr/>
+        <script src="jquery-3.3.1.js"></script>
+        <script src="index.js" async></script>
+    </body>
+</html>
