@@ -1,8 +1,9 @@
 
 
-function listenForEvent(){ 
+function listenForEvent(){
+    $('#box')[0].focus();
+
     var temWord;
-    var lastSpan;
     var frame = $("#frame");
 
     function changeiFramAction(word) {

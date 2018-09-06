@@ -139,13 +139,14 @@ function createWindow(dic_element_set,selectedObj_Pos){
         "box-sizing":":unset !important;",
         "position":":absolute;",
         "width":":230px;",
+        '-moz-box-shadow':':0px 0px 10px 0px rgba(0,0,0,0.75);',
+        'box-shadow':':0px 0px 10px 0px rgba(0,0,0,0.75);',
         "padding":":10px;",
         "z-index":":10000;",
         "text-align":text_algin,
     }
     
     document.documentElement.appendChild(dic_win);
-    console.log("tst");
     
     // console.log(dic_win.style);
     dic_win.style = cssConcat(dic_win_sty);
